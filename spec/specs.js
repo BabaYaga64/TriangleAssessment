@@ -11,10 +11,10 @@ describe("triangleType", function() {
     //     expect(triangleType(0, 1, 1)).to.equal('all sides must be larger than zero');
     // });
 
-    //input: third side larger than the sum of other two sides
+    //input: third side larger than or equal to the sum of other two sides
     //output: this is not a triangle
-    it("returns an output of 'not a triangle. third side cannot be larger than the sum of two other sides' if the third side is larger than the sum of the other two sides", function() {
-        expect(triangleType(7, 2, 3)).to.equal('not a triangle. third side cannot be larger than the sum of two other sides');
+    it("returns an output of 'not a triangle' if the third side is larger than or equal to the sum of the other two sides", function() {
+        expect(triangleType(7, 2, 3)).to.equal('not a triangle');
     });
 
     //input: two sides equal to each other and third side is less than their sum
