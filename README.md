@@ -6,9 +6,12 @@ Description
 
 This program, written in JavaScript, takes user input of 3 sides of a triangle. Once these inputs are entered, the code returns whether the triangle is one of 3 types:
 
-equilateral triangle: all sides are the same length
-isosceles: 2 sides are equal length
-scalene: none of the sides are equal length
+1. equilateral triangle: all sides are the same length
+
+2. isosceles: 2 sides are equal length
+
+3. scalene: none of the sides are equal length
+
 
 The code also takes into account the following rules for triangles:
 The sum of the lengths of any two sides must always be larger than the length of the third side.
