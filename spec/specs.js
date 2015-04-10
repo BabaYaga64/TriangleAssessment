@@ -31,7 +31,8 @@ describe("triangleType", function() {
 
     //input: all sides equal to each other
     //output: equilateral
-
-
+    it("returns an output of 'equilateral' if all of the sides are equal", function() {
+        expect(triangleType(2, 2, 2)).to.equal('equilateral');
+    });
 
 });
