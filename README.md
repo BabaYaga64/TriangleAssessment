@@ -1,8 +1,8 @@
-Triangle Assessment
+#Triangle Assessment
 
-April 10th, 2015
+##April 10th, 2015
 
-Description
+###Description
 
 This program, written in JavaScript, takes user input of 3 sides of a triangle. Once these inputs are entered, the code returns whether the triangle is one of 3 types:
 
@@ -26,7 +26,7 @@ Ex. side_1 < (side_2 + side_3)
     side_1 > (side_2 + side_3)
 
 
-Setup instructions
+###Setup instructions
 
 1. Clone git repository from GitHub or create a new git repository if you are starting project from scratch.
 2. Make sure you have the Mocha.js, Mocha.css, Chai.js in your spec folder, and jQuery-1.11.2.js files saved in your js folder of your main project folder.
@@ -36,7 +36,7 @@ Setup instructions
 6. Open up spec-runner.html in your browser to see if your tests are passing. Use Chrome debugger to figure out what values you are getting back based on your inputs.
 7. Create a form for user input, and create jQuery code to render that input in the browser.
 
-The MIT License (MIT)
+###The MIT License (MIT)
 
 Copyright (c) 2015 Bojana Skarich
 
