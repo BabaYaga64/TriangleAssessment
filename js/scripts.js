@@ -1,7 +1,7 @@
 var triangleType = function(side1, side2, side3) {
 
    //checks to see if it is a triangle at all
-   if (side1 >= (side2 + side3) || (side2 >= (side1 + side3)) || (side3 >= (side1 + side2)) {
+   if (side1 >= (side2 + side3) || (side2 >= (side1 + side3)) || (side3 >= (side1 + side2))) {
         return 'not a triangle';
 
     //EQUILATERAL: all sides equal to each other
@@ -26,9 +26,10 @@ $(document).ready(function() {
         var side3 = parseInt($("input#side3").val());
         var result = triangleType(side1, side2, side3);
 
-        $(".resultdisplay").text(side1, side2, side3);
+        $(".resultdisplay").text(result);
 
         $("#result").show();
         event.preventDefault();
     });
 });
+                                                                                     
