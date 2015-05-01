@@ -1,3 +1,8 @@
-#result {
+.resultdisplay {
     display: none;
+}
+
+.side {
+    display: block;
+    margin: 10px;
 }

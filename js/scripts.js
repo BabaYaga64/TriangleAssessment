@@ -28,8 +28,7 @@ $(document).ready(function() {
 
         $(".resultdisplay").text(result);
 
-        $("#result").show();
+        $(".resultdisplay").show();
         event.preventDefault();
     });
 });
-                                                                                     
