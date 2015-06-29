@@ -6,3 +6,23 @@
     display: block;
     margin: 10px;
 }
+
+.triangleform {
+	padding: 25px;
+}
+
+.home {
+	padding-top: 60px;
+}
+
+.button {
+	padding-left: 30px;
+}
+
+#result {
+	padding: 25px;
+}
+
+body {
+	background-color: #AEA0CC;
+}
