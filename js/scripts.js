@@ -9,22 +9,26 @@ var triangleType = function(side1, side2, side3) {
 
     //EQUILATERAL: all sides equal to each other
     } else if (side1 === side2 && side2 === side3) {
+       $(".image1").show();
         return 'Equilateral Triangle';
+
 
     //ISOSCELES: two sides equal to each other
     } else if ((side1 === side2 && side2 !== side3) || (side2 === side3 && side3 !== side1)|| (side3 === side1 && side1 !== side2)) {
+        $(".image2").show();
         return 'Isosceles Triangle';
 
     //SCALENE: no sides equal to each other
     } else if (side1 !== side2 && side2 !== side3) {
-         return 'Scalene Triangle';
+        $(".image3").show();
+        return 'Scalene Triangle';
     }
 
 };
 
 
     if(result === "Equilateral Triangle") {
-        $(".imagedisplay").append('<img src="../img/equilateral.png" />');
+        $("img").show();
     }
 
 
